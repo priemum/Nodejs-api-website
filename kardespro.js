@@ -3,7 +3,7 @@ const app = express();
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const Database = require("plasma.db"); 
-const db = new Database("./veritabani/db.json");
+const db = new Database("./veritabani/db.json"); 
 db.ayarla("kullanim", 0);
 //Kurulum
 const config = {
